@@ -17,7 +17,7 @@ class CSVImport
 
     public function import_csv($csvFile)
     {
-        // write logic of you fascade 
+        // write logic of you facade 
         // thisfunction accept a csv file and hen convert it to array making chunks of 100 records and then uploading
         try {
             $csv = fopen($csvFile, 'r');
